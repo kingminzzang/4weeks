@@ -1,0 +1,58 @@
+@-webkit-keyframes minzz {
+	0%	{transform: rotate(0deg);
+	}
+	
+	100%	{transform: rotate(360deg)}
+
+	}
+
+.body{
+}
+
+.box{
+	width: 600px; height: 600px;
+	display: flex;
+
+}
+.box:hover{
+
+}
+
+.col{
+	width: 100px; height: 600px;
+	flex-direction: column; }
+
+.black-mini-box{
+	width: 100px; height: 100px;
+	background-color: #000000;
+	transition-property: all;
+	transition-duration: 2s;
+	animation-fill-mode: forwards;
+	animation-play-state: paused;
+
+}
+.black-mini-box:hover{
+	background-color: #F781BE;
+	transition-property: background-color;
+	animation-duration: 5s;
+	animation-fill-mode: forwards;
+}
+
+
+.pink-mini-box{
+	width: 100px; height: 100px;
+	background-color: #F781BE;
+	transition-property: all;
+	transition-duration: 2s;
+	animation-fill-mode: forwards;
+	animation-play-state: paused;
+}
+.pink-mini-box:hover{
+	background-color:  #000000;
+	transition-property: background-color;
+	animation-duration: 5s;
+	animation-fill-mode: forwards;
+}
+
+
+
